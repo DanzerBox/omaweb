@@ -1,0 +1,65 @@
+
+.bg-dark{
+	transition: 750ms ease;
+	background-color: black !important;
+	opacity: 0.6; 
+	
+}
+
+.bg-dark.scrolled{
+	background-color: black !important;
+	opacity: 0.9;
+}
+
+
+
+.taustakuva {
+	flex: width;
+	width: 800px;
+	height: 400px;
+	background-image: url('auto_kuva.jpg');
+	background-size: cover;
+	transition: width 2s, height 3s;
+}
+.taustakuva:hover{
+	width: 1600px;
+	height: 800px;
+}
+
+
+
+.first-example-grid {
+	background-color: #aaaaaa;
+	border: 3px solid #000000;
+
+}
+
+.placeholder-img {
+	height: 200px;
+	border: 1px solid black !important;
+}
+
+
+
+
+.col{
+	background-color: #cccccc;
+	color:#000000;
+	padding: 5px;
+	margin: 3px;
+	text-align: center;
+}
+
+.second-example-grid {
+	background-color: #aaaa00;
+	border: 3px solid #000000;
+	
+}
+
+.second-example-cell {
+	background-color: #cccc00;
+	color:#000000;
+	padding: 5px;
+	margin: 3px;
+	text-align: center;
+}
