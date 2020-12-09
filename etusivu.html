@@ -12,7 +12,7 @@
 <body>
 	 <!-- A grey horizontal navbar that becomes vertical on small screens -->
 <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top navbar-shrink" >
- <img src="logo.png" alt="logo" class="navbar-brand mx-auto" width="100px" height="100px">
+ <img src="logo.png" alt="logo" class="navbar-brand" width="100px" height="100px">
 	<button class="navbar-toggler" data-toggle="collapse" data-target="#navbarMenu">
 		<span class="navbar-toggler-icon"></span>
 	</button>
@@ -65,7 +65,6 @@
       <div class="carousel-caption">
         <h3>RX VISION</h3>
         <p>We love the Big Apple!</p>
-		<br><br>
       </div>   
     </div>
   </div>
@@ -77,37 +76,73 @@
   </a>
 </div>
 
-<br>
+ <div class="row-box">
+	<div class="column-box">
+		<div class="jumbotron">
+		<h1 class="display-8">Konseptit & autot</h1>
+		<p class="lead">Konseptiauto on prototyyppi, jossa esitellään automerkin tai mallin uutta muotoilua ja tekniikkaa.
+  Autot esitellään yleensä ensimmäistä kertaa suurissa autonäyttelyissä. 
+  Valmistaja testaa näin uudistuksia medialla ja yleisöllä ja kehittää palautteen pohjalta 
+  tulevaa tuotantoautomallia. Autot saattavat olla hyvinkin moderneja ja niitä valmistetaan 
+  harvoin useita kappaleita eivätkä ne myöskään päädy sellaisenaan tuotantoon.</p>
+		<hr class="my-4">
+		<a class="btn btn-primary btn-lg" href="palvelut.html" role="button">Lue lisää ➱</a>
+		</div>
+	</div>
+	<div class="column-box">
+		<div class="jumbotron">
+		<h1 class="display-8">Teknologia konseptit</h1>
+		<p class="lead">Tekninen tietämys sisältää paljon yksinkertaistettuja 
+		kokemusperäisiä laskentakaavoja, mitoitusohjeita, standardeja ja sääntöjä, 
+		joiden tieteellinen selityskyky on vajavainen mutta, joilla pystytään saavuttamaan
+		haluttu lopputulos. Suunnittelijoiden tehtävänä on ennakoida, kuinka hyvin uusi tuote 
+		tulee toteuttamaan määrittelyn vaatimukset ennen tuotannon alkamista. Tässä he käyttävät
+		apuna prototyyppejä, pienoismalleja, tietokonesimulointia.</p>
+		<hr class="my-4">
+		<a class="btn btn-primary btn-lg" href="lisätiedot.html" role="button">Lue lisää ➯</a>
+		</div>
+	</div>
+</div>
 
-<div class="container">
-  <h2>Rounded Circle</h2>
-  <p>The .rounded-circle class adds rounded corners to an image:</p>            
-  <img src="auto_kuva.jpg" class="rounded-circle" alt="Cinque Terre" width="330" height="200"> 
+
+<div class="container col-4">
+  <h2>Interaktiivinen</h2>
+  <p> Interaktiivinen media tieteenalana on erityisesti kiinnostunut median,
+  yhteisöjen sekä ihmisten välisestä vuorovaikutuksesta. Vuorovaikutus tapahtuu 
+  digitaalisten tietokonepohjaisten sovellusten välityksellä. </p>  
+<br>  
+  <img src="giphy.webp" class="rounded-circle" alt="Cinque Terre" width="400" height="400"> 
 </div>
 <br>
-<div class="taustakuva img-fluid">	
+<br><br>
+	<div class="taustakuva mx-auto">
 	</div>
 
 
- <div class="jumbotron">
-  <h1 class="display-4">Moikka! tämä on jumbotron</h1>
-  <p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
-  <hr class="my-4">
-  <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
-  <a class="btn btn-primary btn-lg" href="#" role="button">Lue lisää</a>
-</div>
- 
- <div class="polaroid">
-  <img src="auto_kuva.jpg" a class="nav-link" href="#" alt="Norway" style="width:100%">
-  <div class="container">
-    <p>Hardanger, Norway</p>
-  </div>
+ <br><br><br><br><br><br>
+ <div class="row">
+		<div class="column">
+			<div class="polaroid container">
+			<img src="ux.gif" a class="nav-link" href="lisätiedot.html" alt="UX" style="width:100%">
+			<div class="container">
+			<p>Käyttöliittymä</p>
+			<button type="button" class="btn btn-primary">UX</button>
+			</div>
+			</div>
+		</div>
+		<p>😉</p>
+		<div class="column">
+			<div class="polaroid container">
+			<img src="ui.gif" a class="nav-link" href="palvelut.html" alt="UI" style="width:100%">
+			<div class="container">
+			<p>Käyttäjäkokemus</p>
+			<button type="button" class="btn btn-success">UI</button>
+			</div>
+			</div>
+		</div>
+ </div>
   
 </div>
-<button type="button" class="btn">Oletuspainike</button>
-<button type="button" class="btn btn-primary">linkkipainike</button>
-<button type="button" class="btn btn-secondary">success-painike</button>
-<button type="button" class="btn btn-success">bonus-painike</button>
 
 <br>
 

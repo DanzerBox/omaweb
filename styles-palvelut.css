@@ -19,6 +19,11 @@
 	display:block;
 	
 }
+h1 {
+	text-transform: uppercase;
+	text-shadow: 1px 1px 1px #000000;
+
+}
 
 .btn-primary {
 	color: white;

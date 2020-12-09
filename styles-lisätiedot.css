@@ -19,11 +19,16 @@
 	display:block;
 	
 }
-h1 {
+h1  {
 	text-transform: uppercase;
 	text-shadow: 1px 1px 1px #000000;
-
+	
 }
+
+p{
+	height:450px;
+}
+
 
 .row {
     display: -ms-flexbox;
